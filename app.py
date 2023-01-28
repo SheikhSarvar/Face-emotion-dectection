@@ -5,7 +5,8 @@ import time
 from PIL import Image, ImageOps
 from tensorflow import keras
 from keras.models import model_from_json
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
+#from keras.preprocessing.image import img_to_array
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
 
 # load model
